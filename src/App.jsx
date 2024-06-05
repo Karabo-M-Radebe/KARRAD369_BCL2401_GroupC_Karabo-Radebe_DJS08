@@ -13,11 +13,19 @@
  * Review challenge: do all the CSS yourself based on the design
  * linked in the slides.
  */
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Route, Link, Routes } from "react-router-dom";
 
 function App() {
 
   return (
-    <h1>Start here</h1>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/components/pages/Home.jsx" element={<Home/>}></Route>
+      <Route path="/components/pages/About.jsx" element={<About/>}></Route>
+    </Routes>
+    </BrowserRouter>
   )
 }
 
