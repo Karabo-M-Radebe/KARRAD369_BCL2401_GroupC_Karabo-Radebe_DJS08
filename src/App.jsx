@@ -22,8 +22,8 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/components/pages/Home.jsx" element={<Home/>}></Route>
-      <Route path="/components/pages/About.jsx" element={<About/>}></Route>
+      <Route path="/presentation/Home.jsx" element={<Home/>}></Route>
+      <Route path="/presentation/About.jsx" element={<About/>}></Route>
     </Routes>
     </BrowserRouter>
   )
