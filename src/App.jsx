@@ -16,17 +16,25 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Link, Routes } from "react-router-dom";
+import { Vans } from "../presentation/Vans";
 
-function App() {
+export const App = () => {
 
   return (
     <BrowserRouter>
+    <header>
+      <Link className="site-logo" to="/presentation/Home.jsx">#VanLife</Link>
+      <nav>
+        <Link to="/presentation/About.jsx">About</Link>
+        <Link to="/presentation/Vans.jsx">Vans</Link>
+      </nav>
+    </header>
     <Routes>
-      <Route path="/presentation/Home.jsx" element={<Home/>}></Route>
-      <Route path="/presentation/About.jsx" element={<About/>}></Route>
+      <Route path="/presentation/Home.jsx" element={<Home/>}/>
+      <Route path="/presentation/About.jsx" element={<About/>}/>
+      <Route path="/presentation/Vans.jsx" element={<Vans/>}/>
     </Routes>
     </BrowserRouter>
   )
 }
 
-export default App
