@@ -6,6 +6,7 @@ import { About } from "../presentation/About.jsx";
 import { Vans } from "../presentation/Vans.jsx";
 
 import "./server.js";
+import { VanDetail } from "../presentation/VanDetail.jsx";
 
 export default function App () {
 
@@ -22,6 +23,7 @@ export default function App () {
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/vans" element={<Vans/>}/>
+      <Route path="/vans/:id" element={<VanDetail/>}/>
     </Routes>
     </BrowserRouter>
   )
