@@ -2,15 +2,16 @@
 
 🎥 INSERT LOOM PRESENTATION LINK: [Here]
 
-After cloning the repo, run `npm install` to install the dependencies 
 
-Are you ready to get stuck into some React Router? For this challenge, you are required to code along with the lecturer from this lesson: [VanLife Project Bootstrapping](https://scrimba.com/learn/react/vanlife-project-bootstrapping-co8bc40b191eec875ecf00b23).
 
-For this challenge you are required to code along with the lecturer from this lesson: https://scrimba.com/learn/react/vanlife-project-bootstrapping-co8bc40b191eec875ecf00b23
 
-The starter code has all the CSS styling required for the project; you will just need to link the corresponding classes as you code along. Jump into the start code here: [GitHub Repository](https://github.com/CodeSpace-Academy/StudentNo_Classcode_Group_Name-Surname_DJS08/tree/main).
 
-The focus for this project will be to understand routing and present your code. Along with your code, you will need to submit a recorded presentation talking through the presentation points included below.
+Be prepared to provide code snippets and real-world application examples from your Van Life Project to support your explanations.
+
+Make sure to submit your project to the DJS08 Project Tab on the LMS. Include a link to your Loom Presentation in your README.
+
+
+# Project Overview
 
 ## React Routing Presentation Talking Points
 
@@ -37,6 +38,35 @@ For your recorded presentation, you will be discussing key concepts related to R
 - Describe the use of `NavLink` for active styling. What makes `NavLink` different from the basic `Link` component?
 - Discuss the use of search parameters and the `useSearchParams` hook to dynamically filter content, as seen in the VanLife project challenges.
 
-Be prepared to provide code snippets and real-world application examples from your Van Life Project to support your explanations.
+# Project Brief
+After cloning the repo, run `npm install` to install the dependencies 
 
-Make sure to submit your project to the DJS08 Project Tab on the LMS. Include a link to your Loom Presentation in your README.
+Are you ready to get stuck into some React Router? For this challenge, you are required to code along with the lecturer from this lesson: [VanLife Project Bootstrapping](https://scrimba.com/learn/react/vanlife-project-bootstrapping-co8bc40b191eec875ecf00b23).
+
+
+The starter code has all the CSS styling required for the project; you will just need to link the corresponding classes as you code along. Jump into the start code here: [GitHub Repository](https://github.com/CodeSpace-Academy/StudentNo_Classcode_Group_Name-Surname_DJS08/tree/main).
+
+The focus for this project will be to understand routing and present your code. Along with your code, you will need to submit a recorded presentation talking through the presentation points included below.
+
+# Elements included 
+- API
+- React Router
+- React Hooks
+- CSS Styling
+- Responsive Design
+- Accessibility
+- Error Handling
+- React Icons and Firebase dependencies
+- React Router (DOM,Hooks, Link, NavLink, Outlet, Route, Routes, useParams, useSearchParam, useNavigate, useLocation, useMatch, useResolvedPath, useOutletContext, useOutlet, useNavigate, useLocation useMatch)
+
+# Reflections 
+
+### Areas of mastery 
+- there aren't any mastered areas 
+
+### Challenges faced 
+- 
+### Areas of Improvement 
+
+
+## Overall learning experience
